@@ -33,7 +33,7 @@ with st.form(key="searchform", clear_on_submit=False):
     nav1, nav2 = st.columns([2, 1])
 
     with nav1:
-        search_term = st.text_input("Please Enter The Ticket Sumbol")
+        search_term = st.text_input("Please Enter The Ticket Symbol")
     with nav2:
         st.text("")
         st.text("")
