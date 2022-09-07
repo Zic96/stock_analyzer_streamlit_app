@@ -12,7 +12,8 @@ with 'free' data! This tool is by far not perfect but I hope it can help you!
 had delays and mistakes! 
 
 ## How to use the App
-Just type any USA stock symbol and press the button, thats it!
+1) Go to https://zic96-stock-analyzer-streamlit-app-stock-analyzer-tool-oay0k9.streamlitapp.com/
+2) Just type any USA stock symbol and press the button, thats it!
 
 ## Key Features
 * Data Collection from yfinance
