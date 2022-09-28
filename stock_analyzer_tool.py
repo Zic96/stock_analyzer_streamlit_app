@@ -126,7 +126,7 @@ try:
                                     "Price To Book",
                                     "Enterprice To Revenue",
                                     "Enterprice To EBITDA",
-                                    "Sort Ratio(%)",
+                                    "Short Ratio(%)",
                                 ]
                             ),
                             cells=dict(
@@ -305,10 +305,10 @@ try:
                     fig_div = px.bar(div_his, y="Dividends", title="Dividend History")
                     st.write(fig_div)
                 else:
-                    st.title("This Company Doesn't Give A Dividend")
+                    st.title("This Company Doesn't Pay A Dividend")
             except:
                 # if comapny doesnt give dividend
-                st.title("This Company Doesn't Give A Dividend")
+                st.title("This Company Doesn't Pay A Dividend")
 
         with tab3:
             # creating major holders tab
